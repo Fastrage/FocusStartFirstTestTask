@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0C8DD27F22D72604001E074D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8DD27E22D72604001E074D /* main.swift */; };
+		0C8DD28622D72627001E074D /* Advertisment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8DD28522D72627001E074D /* Advertisment.swift */; };
+		0C8DD28822D72642001E074D /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8DD28722D72642001E074D /* Author.swift */; };
+		0C8DD28A22D72707001E074D /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8DD28922D72707001E074D /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		0C8DD27B22D72604001E074D /* FocusStartFirstTestTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FocusStartFirstTestTask; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8DD27E22D72604001E074D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0C8DD28522D72627001E074D /* Advertisment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertisment.swift; sourceTree = "<group>"; };
+		0C8DD28722D72642001E074D /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		0C8DD28922D72707001E074D /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 		0C8DD27D22D72604001E074D /* FocusStartFirstTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				0C8DD28722D72642001E074D /* Author.swift */,
+				0C8DD28522D72627001E074D /* Advertisment.swift */,
+				0C8DD28922D72707001E074D /* Services.swift */,
 				0C8DD27E22D72604001E074D /* main.swift */,
 			);
 			path = FocusStartFirstTestTask;
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8DD28822D72642001E074D /* Author.swift in Sources */,
+				0C8DD28A22D72707001E074D /* Services.swift in Sources */,
 				0C8DD27F22D72604001E074D /* main.swift in Sources */,
+				0C8DD28622D72627001E074D /* Advertisment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
